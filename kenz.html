@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENZ by Kashyap </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(120deg, #f3e5f5, #ffe8d6);
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background: #1a1a1a;
+            color: white;
+            padding: 1.5rem 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffe8d6;
+        }
+
+        
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #ffe8d6, #f3e5f5);
+            color: #1a1a1a;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero button {
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            background: #1a1a1a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-decoration: none;
+        }
+
+        .hero button:hover {
+            background: #333;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 3rem;
+        }
+
+        .product {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product h3 {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .product p {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .product button {
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            background: #1a1a1a;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .product button:hover {
+            background: #333;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #1a1a1a;
+            color: white;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ffe8d6;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        footer a:hover {
+            color: #f3e5f5;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="brand">KENZ Luxe</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#REVIEW">Review</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#mycart">My Cart</a></li>
+                <li><a href="#contact">Login | Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Bold Accessories for Future Millonaires</h1>
+        <P>Discover the with our iced-out luxurious accessories.</P>
+        <H2><P><B>GENZ FEELS KENZ</B></P></H2>
+        <button>Shop Now</button>
+    </section>
+    
+
+    <section class="products" id="products">
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/2b/54/23/2b54235eb10abb60895b62de4d417f14.jpg">
+            <h3>Statement Chains</h3>
+            <p>$92</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart.html">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/94/8f/37/948f37b5d6369ab6f630d9c3c7e20b0a.jpg" alt="Product 2">
+            <h3>Luxury Rings</h3>
+            <p>$89.99</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/car1.html" >Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/cc/96/6e/cc966edb550824a58c4c2186bd7663df.jpg" alt="Product 3">
+            <h3>Chic Bracelets</h3>
+            <p>$69.99</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart2.html">Buy Now</a></button>
+           
+        </div>
+    </section>
+    <section class="products" id="products">
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/75/20/83/752083924f8c19edb4b8030d2c4dadf3.jpg">
+            <h3>Statement Watches</h3>
+            <p>$155</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart3.html">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/7a/5d/f5/7a5df56f5024e4ddb158de4e6bb90d32.jpg" alt="Product 2">
+            <h3>Iced Teeth </h3>
+            <p>$45.50</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart4.html" >Buy Now</a></button>
+        
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/41/9a/0d/419a0dc481aa4f39d36327824ff0efd8.jpg" alt="Product 3">
+            <h3>Catchy Pendents</h3>
+            <p>$15.25</p>
+            <button> <a href="http://127.0.0.1:5500/Video%201/index.html/cart5.html">Buy Now</button>
+            </a>  
+        </div>
+    </section>
+    <section class="products" id="products">
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/94/53/03/945303eb2b7a6854988a6daa6b5bc0d7.jpg">
+            <h3>Bold Belt</h3>
+            <p>$48</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart6.html">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/c3/66/c9/c366c9249bbf63b02b988bf08a88ab8f.jpg" alt="Product 2">
+            <h3>Side Chains</h3>
+            <p>$32</p>
+            <button>
+                <a href="http://127.0.0.1:5500/Video%201/index.html/cart7.html">Buy Now</a>
+            </button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/2c/c5/81/2cc581ae7f58eb4b7189dd91e847ff3b.jpg" alt="Product 3">
+            <h3>Vintage Belts</h3>
+            <p>$37</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart8.html">Buy Now</a></button>
+           
+        </div>
+    </section>
+    <section class="products" id="products">
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/11/4e/01/114e01d9e797684dbfeba25124badd65.jpg">
+            <h3>Classy Wallets</h3>
+            <p>$15</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart9.html">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/d4/72/31/d4723155b7cf4ae21ed4f34eb070e598.jpg" alt="Product 2">
+            <h3>custom Jeans</h3>
+            <p>$12</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart10.html">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/75/0e/81/750e8109b6abe19ac780b330293f3755.jpg" alt="Product 3">
+            <h3>Snake Drips</h3>
+            <p>$15.25</p>
+            <button><a href="http://127.0.0.1:5500/Video%201/index.html/cart11.html">Buy Now</a></button>
+           
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024 GENZ Luxe. All Rights Reserved. Follow us on
+            <a href="#">Instagram</a> | <a href="#">TikTok</a> | <a href="#">Pinterest</a>
+        </p>
+    </footer>
+</body>
+
+</html>

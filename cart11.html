@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENZ by Kashyap </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(120deg, #f3e5f5, #ffe8d6);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: #1a1a1a;
+            color: white;
+            padding: 1.5rem 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffe8d6;
+        }
+
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #ffe8d6, #f3e5f5);
+            color: #1a1a1a;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero button {
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            background: #1a1a1a;
+            color: rgb(2, 61, 110);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .hero button:hover {
+            background: #333;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 3rem;
+            background-color: #021227;
+        }
+
+        .product {
+            background: rgb(215, 238, 255);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: space-evenly;
+            transition: transform 0.3s;
+        }
+       
+        .product img {
+            width: 400px;
+            height: 600px;
+            object-fit: cover;
+        }
+
+        .product h3 {
+            font-size: 2.5rem;
+            margin: 1rem 1rem;
+        }
+
+        .product p {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .product button {
+            padding: 0.8rem 2rem;
+            font-size: 2rem;
+            background: #1a1111;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .product button:hover {
+            background: #333;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #1a1a1a;
+            color: white;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ffe8d6;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        footer a:hover {
+            color: #f3e5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="products" >
+        <div class="product">
+            <div class="left">
+                <img src="https://i.pinimg.com/736x/75/0e/81/750e8109b6abe19ac780b330293f3755.jpg">
+            </div>
+            <div class="right">
+                <h3>Snake Drips</h3>
+            <p>$15.25</p>
+                
+            <button onclick="">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
